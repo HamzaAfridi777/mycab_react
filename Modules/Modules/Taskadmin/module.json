@@ -1,0 +1,11 @@
+{
+    "name": "Taskadmin",
+    "alias": "taskadmin",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Taskadmin\\app\\Providers\\TaskadminServiceProvider"
+    ],
+    "files": []
+}

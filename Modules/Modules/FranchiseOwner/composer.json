@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/franchiseowner",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\FranchiseOwner\\": "",
+            "Modules\\FranchiseOwner\\App\\": "app/",
+            "Modules\\FranchiseOwner\\Database\\Factories\\": "database/factories/",
+            "Modules\\FranchiseOwner\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\FranchiseOwner\\Tests\\": "tests/"
+        }
+    }
+}

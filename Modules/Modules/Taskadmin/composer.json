@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/taskadmin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Taskadmin\\": "",
+            "Modules\\Taskadmin\\App\\": "app/",
+            "Modules\\Taskadmin\\Database\\Factories\\": "database/factories/",
+            "Modules\\Taskadmin\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Taskadmin\\Tests\\": "tests/"
+        }
+    }
+}

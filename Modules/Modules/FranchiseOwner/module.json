@@ -1,0 +1,11 @@
+{
+    "name": "FranchiseOwner",
+    "alias": "franchiseowner",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\FranchiseOwner\\app\\Providers\\FranchiseOwnerServiceProvider"
+    ],
+    "files": []
+}
